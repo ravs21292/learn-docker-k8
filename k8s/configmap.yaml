@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: python-k8s-app-config
+  namespace: python-k8s-app
+data:
+  APP_NAME: "Python K8s App"
+  DEBUG: "false"
+  HOST: "0.0.0.0"
+  PORT: "8000"
+  # Database configuration will be set via environment variables
+  DATABASE_HOST: "postgres-service"
+  DATABASE_PORT: "5432"
+  DATABASE_NAME: "mydb"
+  # Redis configuration
+  REDIS_HOST: "redis-service"
+  REDIS_PORT: "6379"
