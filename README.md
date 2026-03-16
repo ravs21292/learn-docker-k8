@@ -1,4 +1,5 @@
 # Python + PostgreSQL + Kubernetes Project
+This project is part of my backend engineering portfolio. The backend architecture, API design, and implementation were designed and built by me while exploring and learning core backend development concepts of Docker/Kubernates with AWS.
 
 A production-ready Python application with PostgreSQL database, containerized with Docker and deployed on Kubernetes with CI/CD pipeline.
 
